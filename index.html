@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JQUERY-UI</title>
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+  </head>
+
+  <body>
+  <h1 id="heading"> JQUERY - UI </h1>
+  <div id="container" class="container">
+  <h2 id="subHeading" > JQUERY </h2>
+  </div> 
+
+  <!-- <div id="resizable" class="ui-widget-content">
+  <h3 class="ui-widget-header">Resizable</h3>
+</div>
+<br/>
+<br/>-->
+ <!--<ol id="selectable"> -->
+<ul id="sortable">
+  <li class="ui-widget-content ">Burger</li>
+  <li class="ui-widget-content ">Pizza</li>
+  <li class="ui-widget-content ">Pie</li>
+  <li class="ui-widget-content ">Donuts</li>
+
+</ul>
+
+<!-- <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/> -->
+<div id="room">
+  <img id="bulbOn" src="images/bulbOn.jpg" alt="Bulb On">
+  <img id="bulbOff" src="images/bulbOff.jpg" alt="Bulb Off">
+  <img id="switchOn" src="images/switchOn.jpg" alt="Switch On">
+  <img id="switchOff" src="images/switchOff.jpg" alt="Switch Off">
+</div>
+
+<!-- <img id="cameraOn" class="" src="images/cameraOn.jpeg" alt="camera">
+<img id="circle" class="" src="images/circle.png" alt="circle">
+<img id="cameraOffSwitch" class="" src="images/switchOff.jpg" alt="switch"> -->
+<!-- jquery goes first in this set -->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     <!-- <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script> -->
+
+<!-- jquery UI is dependent on jquery, so it goes next -->
+    <script
+    src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous"></script>
+
+<!-- our script file must be the last one in this set -->
+  <script src="js/script.js"> </script>
+
+
+  </body>
+</html>

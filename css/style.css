@@ -1,0 +1,51 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background: whitesmoke;
+  color: red;
+}
+.myClass{
+  background: cyan;
+  color:blue;
+}
+.container{
+  width: 500px;
+  height: 500px;
+  background: black;
+  margin: 200px auto;
+}
+#resizable { width: 150px; height: 150px; padding: 0.5em; }
+  #resizable h3 { text-align: center; margin: 0; }
+
+
+  #feedback { font-size: 1.4em; }
+   #selectable .ui-selecting { background: #FECA40; }
+   #selectable .ui-selected { background: red; color: white; }
+   #selectable { list-style-type: none; margin: 0; padding: 0; width: 30%; }
+   #selectable li { margin: 3px; padding: 0; font-size: 1.4em; height: 25px; }
+
+   #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+     #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 40px; }
+     #sortable li span { position: absolute; margin-left: -1.3em; }
+
+
+     #cameraOn{
+       position: absolute;
+       top:600px;
+       left:200px;
+
+
+     }
+
+     #circle{
+       position:relative;
+       top:565px;
+       left:240px;
+       display: none;
+       z-index:2;
+       width:125px;
+       height:125px;
+     }
